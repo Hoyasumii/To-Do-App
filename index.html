@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoyasumii's To Do App</title>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <p><strong>PS C:\Users\ToDoApp></strong> start Tasks.exe</p>
+        -----------------------------
+    </header>
+    
+    <main id="main-content">
+
+        <div id="tasks-area">
+    
+            <div class="task" id="task001">
+    
+                <label>
+                    <input type="checkbox" id="activity001" name="activity001" onclick="alert('Opção 1');"> <!-- Activity{IDNUMBER} -->
+                    <label for="activity001">Tomar Café da Manhã</label>
+                </label>
+    
+            </div>
+            
+            <div class="task" id="task002">
+    
+                <label>
+                    <input type="checkbox" id="activity002" name="activity002" onclick="alert('Opção 2');"> <!-- Activity{IDNUMBER} -->
+                    <label for="activity002">Estudar</label>
+                </label>
+    
+            </div>
+            
+            <div class="task" id="task003">
+    
+                <label>
+                    <input type="checkbox" id="activity003" name="activity003" onclick="alert('Opção 3');"> <!-- Activity{IDNUMBER} -->
+                    <label for="activity003">Malhar</label>
+                </label>
+    
+            </div>
+                
+        </div>
+
+        -----------------------------
+
+        <form action="#" method="get" id="entry-task-area">
+            <strong>PS C:\Users\ToDoApp></strong>
+            <input type="text" name="commandName" autofocus autocomplete="off">
+            <button hidden></button>
+        </form>
+
+    </main>
+
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #5f5;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5em;
+}
+
+strong {
+    user-select: none;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+#main-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.task {
+    background-color: #000;
+}
+
+#entry-task-area {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+
+#entry-task-area input[type="text"] {
+    border: 0px;
+    flex: 2;
+    background-color: inherit;
+    font-size: 1em;
+    font-weight: normal;
+    
+}
+
+#entry-task-area button {
+    border: 0px;
+    padding: 0px 25px;
+}
+
+#entry-task-area button:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+#tasks-area input[type="checkbox"] {
+    display: none;
+}
+
+#tasks-area input[type="checkbox"] + label::before {
+    content: "[ ] ";
+}
+
+#tasks-area input[type="checkbox"]:checked + label::before,  #tasks-area input[type="checkbox"]:hover + label::before{
+    content: "[X] ";
+}
