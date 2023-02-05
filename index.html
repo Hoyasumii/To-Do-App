@@ -4,66 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoyasumii's To Do App</title>
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Hoyasumii's To Do</title>
+    <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/mainStyle.css">
+    <link rel="stylesheet" href="./src/styles/footerStyle.css">
+    <link rel="stylesheet" href="./src/styles/mainContentStyle.css">
 </head>
 <body>
 
-    <header>
-        <p><strong>PS C:\Users\ToDoApp></strong> start Tasks.exe</p>
-        -----------------------------
-    </header>
+    <div class="main-content">
+        <header>
+            <h1 id="title">Meu Dia</h1>
+            <p id="currentDate"></p>
+        </header>
+        
+        <main>
     
-    <main id="main-content">
+            <div class="card">
+                <input type="checkbox" name="" id="task1" class="card-checkbox">
+                <label for="task1" class="card-label">Olá mundo</label>
+                <button class="card-remove-task" onclick="alert('Olá');"></button>
+            </div>
 
-        <div id="tasks-area">
-    
-            <div class="task" id="task001">
-    
-                <label>
-                    <input type="checkbox" id="activity001" name="activity001" onclick="alert('Opção 1');"> <!-- Activity{IDNUMBER} -->
-                    <span>Tomar Café da Manhã</span>
-                </label>
-    
-                <button class="config-button"></button>
-                
+            <div class="card">
+                <input type="checkbox" name="" id="task2" class="card-checkbox">
+                <label for="task2" class="card-label">Tchau mundo</label>
+                <button class="card-remove-task" onclick="alert('Olá');"></button>
             </div>
             
-            <div class="task" id="task002">
-                
-                <label>
-                    <input type="checkbox" id="activity002" name="activity002" onclick="alert('Opção 2');"> <!-- Activity{IDNUMBER} -->
-                    <span>Estudar</span>
-                </label>
-                
-                <button class="config-button"></button>
-                
-            </div>
-            
-            <div class="task" id="task003">
-                
-                <label>
-                    <input type="checkbox" id="activity003" name="activity003" onclick="alert('Opção 3');"> <!-- Activity{IDNUMBER} -->
-                    <span>Malhar</span>
-                </label>
-                
-                <button class="config-button"></button>
-                
-            </div>
-                
-        </div>
+        </main>
+    </div>
 
-        -----------------------------
+    <footer>
 
-        <form action="#" method="get" id="entry-task-area">
-            <strong>PS C:\Users\ToDoApp></strong>
-            <input type="text" name="commandName" autofocus autocomplete="off">
-            <button hidden></button>
+        <form method="get" id="task-bar">
+            <input type="text" id="task-bar-input" name="taskName" autocomplete="off">
+            <label for="task-bar-input">Escreva uma Tarefa</label>
+            <button id="task-bar-button"></button>
         </form>
 
-    </main>
+    </footer>
 
+    <script src="./src/scripts/header.js"></script>
+    <script src="./src/scripts/footer.js"></script>
 
 </body>
 </html>
+

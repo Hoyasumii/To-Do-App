@@ -1,0 +1,78 @@
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #1f1f1f;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 15px;
+    align-items: center;
+    user-select: none;
+}
+
+.card:hover, .card *:hover {
+    cursor: pointer;
+}
+
+.card-checkbox, .card-remove-task {
+    margin-left: 15px;
+    appearance: none;
+    background-color: #141414;
+    min-width: 1.5em;
+    max-width: 1.5em;
+    min-height: 1.5em;
+    max-height: 1.5em;
+    border-radius: 25%;
+    transition: 0.4s;
+    display: grid;
+    place-content: center;
+}
+
+.card-checkbox::before {
+    content: "";
+    border-radius: 25%;
+    width: 1em;
+    height: 1em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-color: #3D3D3D;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.card-checkbox:hover, .card-remove-task:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+.card-checkbox:checked::before {
+    transform: scale(1);
+}
+
+.card-label {
+    width: 100%;
+    padding: 15px 15px 15px 0;
+}
+
+.card-remove-task {
+    min-width: 3em;
+    max-width: 3em;
+    margin: 15px 15px 15px 0;
+    border-radius: 5px;
+}
+
+.card-remove-task::before {
+    font-weight: bolder;
+    content: "Del";
+}
+
+.card-remove-task:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+}
