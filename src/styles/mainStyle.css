@@ -52,21 +52,9 @@ body > * {
 
 /* Responsividade */
 
-@media (max-width: 321px) {
-    body {
-        width: 100vw;
-        font-size: 0.9em;
-    }
-}
-
-@media (max-width: 426px), (orientation: portrait) {
+@media (orientation: portrait) {
     body {
         width: 90vw;
     }
 }
 
-@media (max-width: 768px) {
-    body {
-        width: 60vw;
-    }
-}
