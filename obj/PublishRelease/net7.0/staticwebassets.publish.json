@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "Hash": "ryDisDkgN3MLOGgeOrr4uEFC+bHVOlvLwSK42sJ4KZg=",
+  "Hash": "H8w4R/ezkygmIec6UDAQqvKXY1jpuZOlurpFmgxS/Q4=",
   "Source": "Todo Site",
   "BasePath": "_content/Todo Site",
   "Mode": "Default",
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\js\\header.js"
     },
     {
-      "Identity": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\mainContent.js",
+      "Identity": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\site.js",
       "SourceId": "Todo Site",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\",
       "BasePath": "_content/Todo Site",
-      "RelativePath": "js/mainContent.js",
+      "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\mainContent.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ]
 }
