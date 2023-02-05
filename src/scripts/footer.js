@@ -5,20 +5,30 @@ var taskBarInput = document.getElementById("task-bar-input");
 var taskBarButton = document.getElementById("task-bar-button");
 
 function taskBarFocusInEvent() {
-    taskBarInput.value = taskBarInputContent;
+    if (taskBarInput.value == "") {
+        taskBarInput.value = taskBarInputContent;
+        taskBar.getElementsByTagName("label")[0].style.top = "-20px";
+    }
+
     taskBarButton.style.display = (taskBarInput.value != "" ? "block" : "none");
 }
 
 function taskBarFocusOutEvent() {
-    taskBarInputContent = taskBarInput.value;
-    taskBarInput.value = "";
-    taskBarButton.style.display = "none";
+    if (taskBarInput.value == "") {
+        taskBarInputContent = taskBarInput.value;
+        taskBarInput.value = "";
+        taskBarButton.style.display = "none";
+        taskBar.getElementsByTagName("label")[0].style.top = "10px";
+    }
+    else {
+        taskBar.getElementsByTagName("label")[0].style.top = "-20px";
+    }
 }
 
-function addTask() { 
+function taskBarInputButtonEffect() { 
     taskBarButton.style.display = (taskBarInput.value != "" ? "block" : "none");
 }
 
-document.getElementById("task-bar").addEventListener("focusin", taskBarFocusInEvent);
-document.getElementById("task-bar").addEventListener("focusout", taskBarFocusOutEvent);
-document.getElementById("task-bar-input").addEventListener("input", addTask)
+taskBar.addEventListener("focusin", taskBarFocusInEvent);
+taskBar.addEventListener("focusout", taskBarFocusOutEvent);
+taskBarInput.addEventListener("input", taskBarInputButtonEffect);
