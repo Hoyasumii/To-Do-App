@@ -49,10 +49,13 @@ body > * {
     background: #1f1f1f; 
 }
 
+
 /* Responsividade */
-@media (max-width: 768px) {
+
+@media (max-width: 321px) {
     body {
-        width: 60vw;
+        width: 100vw;
+        font-size: 0.9em;
     }
 }
 
@@ -62,9 +65,8 @@ body > * {
     }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 768px) {
     body {
-        width: 100vw;
-        font-size: 0.9em;
+        width: 60vw;
     }
 }
