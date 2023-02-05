@@ -1,8 +1,32 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<div class="main-content">
+        <header>
+            <h1 id="title">Meu Dia</h1>
+            <p id="currentDate"></p>
+        </header>
+        
+        <main>
+    
+            <div class="card">
+                <input type="checkbox" name="" id="task1" class="card-checkbox">
+                <label for="task1" class="card-label">Olá mundo</label>
+                <button class="card-remove-task" onclick="alert('Olá');"></button>
+            </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+            <div class="card">
+                <input type="checkbox" name="" id="task2" class="card-checkbox">
+                <label for="task2" class="card-label">Tchau mundo</label>
+                <button class="card-remove-task" onclick="alert('Olá');"></button>
+            </div>
+            
+        </main>
+    </div>
+
+    <footer>
+
+        <form method="get" id="task-bar">
+            <input type="text" id="task-bar-input" name="taskName" autocomplete="off">
+            <label for="task-bar-input">Escreva uma Tarefa</label>
+            <button id="task-bar-button"></button>
+        </form>
+
+    </footer>

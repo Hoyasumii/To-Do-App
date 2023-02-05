@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\css\\footerStyle.css",
+      "PackagePath": "staticwebassets\\css\\footerStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\css\\mainContentStyle.css",
+      "PackagePath": "staticwebassets\\css\\mainContentStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\css\\mainStyle.css",
+      "PackagePath": "staticwebassets\\css\\mainStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\footer.js",
+      "PackagePath": "staticwebassets\\js\\footer.js"
+    },
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\header.js",
+      "PackagePath": "staticwebassets\\js\\header.js"
+    },
+    {
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Todo Site.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Todo Site.props",
+      "PackagePath": "build\\Todo Site.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Todo Site.props",
+      "PackagePath": "buildMultiTargeting\\Todo Site.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Todo Site.props",
+      "PackagePath": "buildTransitive\\Todo Site.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
