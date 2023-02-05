@@ -18642,7 +18642,7 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "Todo_Site",
+  "RootNamespace": "Application",
   "Documents": [
     {
       "FilePath": "c:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\Views\\_ViewStart.cshtml",

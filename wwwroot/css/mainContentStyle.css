@@ -20,6 +20,14 @@ main {
     cursor: pointer;
 }
 
+.anchor-area {
+    position: absolute;
+    background-color: transparent;
+    width: calc(var(--custom-width) - 30px - 30px - 15px - 3em);
+    height: 3.5em;
+    margin-left: 15px;
+}
+
 .card-checkbox, .card-remove-task {
     margin-left: 15px;
     appearance: none;
@@ -65,10 +73,11 @@ main {
     max-width: 3em;
     margin: 15px 15px 15px 0;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .card-remove-task::before {
-    font-weight: bolder;
+    font-weight: bold;
     content: "Del";
 }
 

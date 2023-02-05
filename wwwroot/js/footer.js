@@ -29,11 +29,6 @@ function taskBarInputButtonEffect() {
     taskBarButton.style.display = (taskBarInput.value != "" ? "block" : "none");
 }
 
-function buttonTest() {
-    alert("foi");
-}
-
 taskBar.addEventListener("focusin", taskBarFocusInEvent);
 taskBar.addEventListener("focusout", taskBarFocusOutEvent);
 taskBarInput.addEventListener("input", taskBarInputButtonEffect);
-taskBarButton.addEventListener("click", buttonTest);
