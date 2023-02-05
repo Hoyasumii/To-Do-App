@@ -29,8 +29,8 @@
       "PackagePath": "staticwebassets\\js\\header.js"
     },
     {
-      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\mainContent.js",
+      "PackagePath": "staticwebassets\\js\\mainContent.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Todo Site.Microsoft.AspNetCore.StaticWebAssets.props",

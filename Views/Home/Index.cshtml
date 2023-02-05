@@ -17,7 +17,7 @@
         <a asp-action="Edit" asp-route-id=@item.Id class="anchor-area"></a>
         
         <input type="checkbox" id=@taskId class="card-checkbox" @checkboxState>
-        <label for=@taskId class="card-label">@item.Title</label>
+        <label for=@taskId class="card-label" >@item.Title</label>
         <a class="card-remove-task" asp-action="Delete" asp-route-id=@item.Id></a>
         
     </div>

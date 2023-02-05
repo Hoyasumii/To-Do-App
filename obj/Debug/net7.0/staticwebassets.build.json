@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n3GwEcc5VOkZNv6CxR7zTMtwcPU+SNF/rsqT1ogbOIs=",
+  "Hash": "ryDisDkgN3MLOGgeOrr4uEFC+bHVOlvLwSK42sJ4KZg=",
   "Source": "Todo Site",
   "BasePath": "_content/Todo Site",
   "Mode": "Default",
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\js\\header.js"
     },
     {
-      "Identity": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\js\\mainContent.js",
       "SourceId": "Todo Site",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\alanr\\OneDrive\\Projetos\\Projetos Front-End\\2023\\Todo Site\\wwwroot\\",
       "BasePath": "_content/Todo Site",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/mainContent.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\mainContent.js"
     }
   ]
 }
