@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <title>Hoyasumii's To Do</title>
+    <link rel="stylesheet" href="./css/site.css">
+    <link rel="stylesheet" href="./css/mainStyle.css">
+    <link rel="stylesheet" href="./css/mainContentStyle.css">
+    <link rel="stylesheet" href="./css/footerStyle.css">
+</head>
+<body>
+    @RenderBody()
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/footer.js"></script>
+    <script src="~/js/header.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

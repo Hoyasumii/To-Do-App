@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Application.Models.ToDoTask>
+
+<div class="main-content">
+        <header>
+            <h1 id="title">Meu Dia</h1>
+            <p id="currentDate"></p>
+        </header>
+        
+        <main>
+    
+@foreach (var item in Model) {
+    <div class="card">
+
+        @{var taskId = "task" + item.Id.ToString();}
+        @{var checkboxState = item.IsActive ? "checked" : "";}
+
+        <a asp-action="Edit" asp-route-id=@item.Id class="anchor-area"></a>
+        
+        <input type="checkbox" id=@taskId class="card-checkbox" @checkboxState>
+        <label for=@taskId class="card-label">@item.Title</label>
+        <a class="card-remove-task" asp-action="Delete" asp-route-id=@item.Id></a>
+        
+    </div>
+}
+
+        </main>
+    </div>
+
+    <footer>
+
+        <form method="post" id="task-bar" asp-action="Index">
+            <input type="text" id="task-bar-input" name="title" autocomplete="off">
+            <label for="task-bar-input">Escreva uma Tarefa</label>
+            <button id="task-bar-button"></button>
+        </form>
+
+    </footer>
